@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy Recipe Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container">
+            <h1 class="logo">Fancy Recipes</h1>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="#">Dinners</a>
+                    <div class="dropdown-content">
+                        <a href="#">5 Ingredients Dinners</a>
+                        <a href="#">One Pot Meals</a>
+                        <a href="#">Quick and Easy</a>
+                        <a href="#">30 Minute Meals</a>
+                        <a href="#">Soup, Stews, and Chili</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Meals</a>
+                    <div class="dropdown-content">
+                        <a href="#">Breakfast and Brunch</a>
+                        <a href="#">Lunch</a>
+                        <a href="#">Healthy</a>
+                        <a href="#">Snacks</a>
+                        <a href="#">Salads</a>
+                        <a href="#">Side Dishes</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Ingredients</a>
+                    <div class="dropdown-content">
+                        <a href="#">Chicken</a>
+                        <a href="#">Beef</a>
+                        <a href="#">Pork</a>
+                        <a href="#">Seafood</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Occasions</a>
+                    <div class="dropdown-content">
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Cuisine</a>
+                    <div class="dropdown-content">
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <!-- Recipe Section -->
+    <div class="recipes-container">
+        <!-- Recipe 1 -->
+        <a href="recipe1.html" class="recipe-link">
+            <section id="recipe1" class="recipe">
+                <h2>Chocolate Tart</h2>
+                <div class="recipe-content">
+                    <img src="recipe1.PNG" alt="Recipe 1 Image">
+                    <p>Another amazing recipe awaits you. Follow the steps to create a culinary masterpiece.</p>
+                </div>
+            </section>
+        </a>
+
+        <!-- Recipe 2 -->
+        <a href="recipe2.html" class="recipe-link">
+            <section id="recipe2" class="recipe">
+                <h2>Pan cake</h2>
+                <div class="recipe-content">
+                    <img src="recipe2.PNG" alt="Recipe 2 Image">
+                    <p>Another amazing recipe awaits you. Follow the steps to create a culinary masterpiece.</p>
+                </div>
+            </section>
+        </a>
+        <a href="recipe3.html" class="recipe-link">
+            <section id="recipe3" class="recipe">
+                <h2>Grilled cheese tomato soup</h2>
+                <div class="recipe-content">
+                    <img src="recipe3.PNG" alt="Recipe 2 Image">
+                    <p>Another amazing recipe awaits you. Follow the steps to create a culinary masterpiece.</p>
+                </div>
+            </section>
+        </a>
+        <a href="recipe4.html" class="recipe-link">
+            <section id="recipe4" class="recipe">
+                <h2>Cheese chicken</h2>
+                <div class="recipe-content">
+                    <img src="recipe4.PNG" alt="Recipe 2 Image">
+                    <p>Another amazing recipe awaits you. Follow the steps to create a culinary masterpiece.</p>
+                </div>
+            </section>
+        </a>
+        <a href="recipe5.html" class="recipe-link">
+            <section id="recipe5" class="recipe">
+                <h2>Mixed veg fried rice</h2>
+                <div class="recipe-content">
+                    <img src="recipe5.PNG" alt="Recipe 2 Image">
+                    <p>Another amazing recipe awaits you. Follow the steps to create a culinary masterpiece.</p>
+                </div>
+            </section>
+        </a>
+        <a href="recipe6.html" class="recipe-link">
+            <section id="recipe6" class="recipe">
+                <h2>Apple pudding</h2>
+                <div class="recipe-content">
+                    <img src="recipe6.PNG" alt="Recipe 2 Image">
+                    <p>Another amazing recipe awaits you. Follow the steps to create a culinary masterpiece.</p>
+                </div>
+            </section>
+        </a>
+        </section>        
+    </div>
+
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: url('your-background.gif') fixed; /* Add your GIF background here */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            z-index: 1000; /* Ensure the navigation bar is on top of other elements */
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .logo {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        .nav-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-links li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #ffcc00;
+        }
+
+        /* New styles for grid layout */
+        .recipes-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .recipe {
+            flex: 0 0 48%; /* Adjust the width of each recipe box */
+            margin-bottom: 20px;
+            transition: box-shadow 0.3s ease;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .recipe:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .recipe-content {
+            padding: 20px;
+        }
+
+        .recipe img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .recipe img:hover {
+            transform: scale(1.1);
+        }
+        .recipes-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .recipe {
+            flex: 0 0 48%; /* Adjust the width of each recipe box */
+            margin-bottom: 20px;
+            transition: box-shadow 0.3s ease, background-color 0.3s ease; /* Add background-color transition */
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .recipe:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            background-color: #ffcc00; /* Change the background color on hover */
+        }
+
+        .recipe-content {
+            padding: 20px;
+        }
+
+        .recipe img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .recipe img:hover {
+            transform: scale(1.1);
+        }       
+    </style>
+</body>
+</html>
